@@ -1,107 +1,174 @@
-:root {
-    --primary-text-color: rgba(0, 0, 0, 0.8);
-    --title-text-color: #000000;
-    --accent-color: #18a0fb;
-    --primary-white-color: #ffffff;
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: var(--primary-white-color);
-    color: var(--primary-text-color);
-    font-family: Montserrat, sans-serif;
-    letter-spacing: -0.015em;
-    font-size: 18px;
-    line-height: 1.67;
+  font-family: Arial, sans-serif;
 }
 
-.logo {
-    color: var(--title-text-color);
-    font-family: Comfortaa, cursive;
-    font-size: 28px;
-    line-height: 1.14;
-    text-decoration: none;
+/* ===== CONTAINER ===== */
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
-.logo:hover {
-    color: var(--accent-color);
+/* ===== HEADER ===== */
+header {
+  height: 80px;
 }
 
-/* Site nav */
-
-.site-nav .link {
-    color: var(--accent-color);
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 1.2;
-    text-decoration: none;
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
 }
 
-.site-nav .link:focus,
-.site-nav .link:hover {
-    color: var(--title-text-color);
+/* Navigation */
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
 }
 
-.site-nav .link.current {
-    color: var(--title-text-color);
+nav a {
+  text-decoration: none;
+  font-size: 14px;
 }
 
-.list {
-    list-style: none;
+/* Contacts */
+.contacts {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
 }
 
-/* Hero */
-
-.hero-title {
-    color: var(--title-text-color);
-    font-weight: 400;
-    font-size: 56px;
-    line-height: 1.43;
-    text-align: center;
+/* ===== HERO SECTION ===== */
+.hero {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
-/* Section */
-
-.section-title {
-    color: var(--title-text-color);
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 1.5;
-    text-align: center;
+.hero .container {
+  width: 700px;
 }
 
-.section-description {
-    font-size: 36px;
-    line-height: 1.39;
+.hero h1 {
+  font-size: 40px;
+  line-height: 1.3;
+  margin-bottom: 30px;
 }
 
-/* Features и Examples */
-
-.feature-list .title,
-.work-list .title {
-    color: var(--title-text-color);
-
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 1.5;
+.hero button {
+  padding: 15px 40px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
 }
 
-/* Button */
-
-.button {
-    color: var(--title-text-color);
-    background-color: var(--primary-white-color);
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 1.2;
-    text-decoration: none;
+/* ===== FEATURES SECTION ===== */
+.features {
+  padding: 80px 0;
 }
 
-.button.primary {
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
+.features .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
 }
 
-.button.secondary {
-    color: var(--accent-color);
-    background-color: var(--primary-white-color);
+.feature-item {
+  width: 250px;
+}
+
+.feature-item h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* ===== SERVICES SECTION ===== */
+.services {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+.services-gallery {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.services-gallery img {
+  width: 370px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* ===== TEAM SECTION ===== */
+.team {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.team h2 {
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+.team-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.team-member {
+  width: 270px;
+  padding: 20px;
+}
+
+.team-member img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.team-member h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.team-member p {
+  font-size: 14px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  height: 250px;
+  padding-top: 50px;
+}
+
+footer h2 {
+  margin-bottom: 20px;
+}
+
+footer address p {
+  margin-bottom: 10px;
+  font-size: 14px;
 }
