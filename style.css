@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.team {
+    background-color: #f5f4fa;
+    padding: 60px 0;
+}
+
+.team h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.team-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-member {
+    background-color: #ffffff;
+    width: 270px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.team-member img {
+    width: 100%;
+    display: block;
+}
+
+.team-member h3 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.team-member p {
+    color: #757575;
+}
