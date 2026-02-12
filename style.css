@@ -31,7 +31,7 @@ body {
     height: 294px;
     object-fit: cover;
     display: block;
-    border-radius: 4px; /* якщо у макеті є скруглення */
+    border-radius: 4px; 
 }
 
 .team {
