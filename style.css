@@ -35,7 +35,7 @@ body {
 }
 
 .team {
-    background-color: #f5f4fa;
+    background-color: #f5f4fa; /* світлий фон секції */
     padding: 60px 0;
 }
 
@@ -50,14 +50,16 @@ body {
 }
 
 .team-member {
-    background-color: #ffffff;
     width: 270px;
     text-align: center;
-    padding-bottom: 20px;
+    padding: 0;          /* прибираємо зайві відступи */
+    background: none;    /* прибираємо білий фон */
 }
 
 .team-member img {
-    width: 100%;
+    width: 270px;
+    height: 260px;       /* як у класичному макеті */
+    object-fit: cover;
     display: block;
 }
 
@@ -68,4 +70,5 @@ body {
 
 .team-member p {
     color: #757575;
+    margin: 0;
 }
