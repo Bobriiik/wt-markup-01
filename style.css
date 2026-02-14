@@ -34,41 +34,31 @@ body {
     border-radius: 4px; 
 }
 
-.team {
-    background-color: #f5f4fa; /* світлий фон секції */
-    padding: 60px 0;
-}
-
-.team h2 {
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.team-list {
-    display: flex;
-    justify-content: space-between;
-}
-
-.team-member {
-    width: 270px;
-    text-align: center;
-    padding: 0;          /* прибираємо зайві відступи */
-    background: none;    /* прибираємо білий фон */
-}
-
-.team-member img {
-    width: 270px;
-    height: 260px;       /* як у класичному макеті */
-    object-fit: cover;
-    display: block;
-}
-
-.team-member h3 {
-    margin-top: 20px;
-    margin-bottom: 5px;
-}
-
-.team-member p {
-    color: #757575;
-    margin: 0;
+.team { 
+    background-color: #f5f4fa; 
+    padding: 60px 0; 
+} 
+.team h2 { 
+    text-align: center; 
+    margin-bottom: 50px; 
+} 
+.team-list { 
+    display: flex; 
+    justify-content: space-between; 
+} 
+.team-member { 
+    background-color: #ffffff; 
+    width: 270px; 
+    text-align: center; 
+    padding-bottom: 20px; 
+} 
+.team-member img { 
+    width: 100%; display: block; 
+} 
+.team-member h3 { 
+    margin-top: 20px; 
+    margin-bottom: 5px; 
+} 
+.team-member p { 
+    color: #757575; 
 }
