@@ -59,8 +59,8 @@ nav a:hover {
     font-weight: 900;
     line-height: 1.36;
     letter-spacing: 0.06em;
-    max-width: 900px;
-    margin: 0 auto 30px auto;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 .hero button {
